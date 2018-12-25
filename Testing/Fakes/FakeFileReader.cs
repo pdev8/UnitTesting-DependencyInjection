@@ -1,6 +1,6 @@
 using UnitTesting.Interfaces;
 
-namespace UnitTesting.Testing
+namespace UnitTesting.Testing.Fakes
 {
     public class FakeFileReader : IFileReader
     {

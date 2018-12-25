@@ -15,7 +15,7 @@ namespace UnitTesting.Services
 
         public string ReadVideoTitle()
         {
-            var str = new FileReader().Read("video.txt");
+            var str = new FileReader().Read("C:/Users/ppauleee/Documents/Personal/CSharp/UnitTesting/DataSource/video.txt");
             var video = JsonConvert.DeserializeObject<Video>(str);
 
             if (video == null)
